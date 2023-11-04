@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    let data = `"name":"mohammed Aamer",
+    "age": 22,
+    "sex": "Male",
+    "isstudent" : true,
+    "programminglanguagesknown": ["python", "java", "CSS", "HTML", "Javascript"],
+    "address": {
+        "city": "Hyderabad",
+        "state":"Telangana",
+        "postalcode":500053
+    }`;
+    let dataobject = JSON.parse(data);
+    // Agar name ko access karna chahte toh
+    console.log(dataobject[name]);
+</script>
+</html>

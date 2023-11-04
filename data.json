@@ -1,0 +1,26 @@
+{
+    "name":"mohammed Aamer",
+    "age": 22,
+    "sex": "Male",
+    "isstudent" : true,
+    "programminglanguagesknown": ["python", "java", "CSS", "HTML", "Javascript"],
+    "address": {
+        "city": "Hyderabad",
+        "state":"Telangana",
+        "postalcode":500053
+    } ,
+    "student":[
+        {
+            "name":"mohammed Aamer",
+            "age":23
+        },
+        {
+            "name": "Junaid",
+            "age":21
+        },
+        {
+            "name":"Obaid",
+            "age":18
+        }
+    ]
+}
